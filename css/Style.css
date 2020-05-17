@@ -1,0 +1,469 @@
+/* CSS SIS Brownie */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, arial;
+}
+p{
+	color:white;
+	font-size: 15px;
+	font-family: arial, "Times new roman";
+	text-shadow:1px 1px 1px #111111;
+}
+body{
+	/*background-color:#000000;*/
+	background: #D2691E no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header{
+	width: 100%;
+	background-color:#F4A460;
+	height: 120px;
+	padding:20px;
+}
+header .container {
+	position: relative;
+
+}
+header #logotipo{
+	position: absolute;
+	top: -5px;
+	height: 80px;
+	width: 80px;
+}
+
+h1{
+	color:#D2691E;
+	text-shadow:3px 3px 3px #111111;
+	text-align: center;
+	margin:0 0 50px 0;
+}
+/*footer {
+	position: bottom;
+	width:100%;
+	clear: both;
+	background-color:#F4A460;
+	height: 80px;
+	text-align: center;
+	padding: 20px;
+	font-size:10px;
+	text-shadow:1px 1px 1px #111111; 
+}    */
+#footer {
+	margin: 0;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color:#F4A460;
+}
+/*  Propriedades do Botão */
+
+.btn{
+
+font-family: arial;
+font-size:14px;
+text-transform:uppercase;
+font-weight:700;
+border:none;
+padding:10px;
+cursor:pointer;
+display:inline-block;
+text-decoration: none;
+border-radius: 30px;
+}
+.btn-menu{
+	background-image:url('../imagens/Brownie13.jpg');/* Coloca uma imagem no botão*/
+	background: chocolate;
+	color:#fff;
+	box-shadow: 10px 0px 10px #CD853F;
+	/*box-shadow:0 5px 0 #8B4513;*/
+}
+.btn-menu:hover{
+	background:#8B4513;
+	color:#fff;
+	box-shadow:0 5px 0 #D2691E;
+}
+.btn-menu:active{
+	position:relative;
+	top: 5px;
+	box-shadow: none;
+}
+
+
+
+/* IDS */
+
+/* ID da Página Home */
+
+#principal{
+	background-image: url('../imagens/logo.png');
+	background-color: #D2691E;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	clear:both;
+	background-size:40%;
+	min-height: 750px;
+	padding:150px 0 0;
+	
+}
+img:hover{ /* Faz girar o logo do menu */
+-ms-transform: rotate(-10deg);
+-webkit-transform: rotate(-10deg);
+-moz-transform: rotate(-10deg);
+-o-transform: rotate(-10deg);
+transform: rotate(-10deg);
+}
+
+
+/* ID da Página Quem Somos */
+
+#principalQS{
+	background-image: url('../imagens/Caixinha.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	clear:both;
+	background-size:70%;
+	min-height:700px;
+	padding:150px 0 0;*/
+}
+
+/* ID da Página Produtos */
+
+#principalProd{
+	background-image: url('../imagens/Baldinho.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	clear:both;
+	background-size:70%;
+	min-height:700px;
+	padding:150px 0 0;*/
+}
+
+/* ID da Página Serviços */
+
+#principalServ{
+	background-image: url('../imagens/Baldinho.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	clear:both;
+	background-size:70%;
+	min-height:700px;
+	padding:150px 0 0;*/
+}
+
+/* ID da Página Fale Conosco */
+
+#principalFC{
+	background-image: url('../imagens/Brownie12.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	clear:both;
+	background-size:70%;
+	min-height:700px;
+	padding:150px 0 0;*/
+}
+
+/* ID padrão para todas as Páginas */
+
+#logo{
+	height: 50px;
+	width: 50px;
+	float:left;
+	
+}
+
+#menu{
+	margin-top:30px;
+	float:right;
+}
+#menu a{
+	padding:52px 20px;
+	text-decoration: none;
+	color:#111;
+	text-shadow: 1px 1px #111111;
+}
+/*#menu a:hover{
+	background-color:#D2691E;
+	color:#111;
+}
+
+/* classes de cada página */
+
+/* Página Home */
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.efeito{
+	background-color:rgba(0, 0, 0, 0.5);
+	padding: 80px 0 80px 0;
+}
+
+/* Página Quem Somos */
+
+.containerQS{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.efeitoQS{
+	background-color:rgba(0, 0, 0, 0.5);
+	padding: 80px 0 80px 0;
+}
+
+/* Página Produtos */
+
+.containerProd{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.efeitoProd{
+	background-color:rgba(0, 0, 0, 0.5);
+	padding: 80px 0 80px 0;
+}
+
+
+/* Página Serviços */
+
+.containerServ{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.efeitoServ{
+	background-color:rgba(0, 0, 0, 0.5);
+	padding: 80px 0 80px 0;
+}
+
+/* Página Fale Conosco */
+
+.containerFC{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.efeitoFC{
+	background-color:rgba(0, 0, 0, 0.5);
+	padding: 80px 0 80px 0;
+}
+
+/* Tags para as Imagens do Carrossel https://carlos-algms.github.io/blog/como-criar-um-plugin-de-carrossel-de-imagens-com-css-puro/*/
+
+.carousel input {
+position: absolute;
+left: -10000px;
+}
+
+.carousel { /* Estava em 100%, mas foi alterado para 70% */
+width: 70%;
+height: 70%;
+}
+
+.carousel__stage {
+overflow: hidden;
+font-size: 0;
+white-space: nowrap;
+width: 100%;
+height: 100%;
+transition: text-indent 600ms;
+position: center;
+}
+
+.carousel__item {
+display: inline-block;
+width: 100%;
+height: 100%;
+overflow: hidden;
+text-indent: 0;
+opacity: 0.6;
+text-align: center;
+}
+
+.carousel__image { /* Estava em 100%, mas foi alterado para 92% */
+
+height: 92%;
+width: auto;
+display: inline-block;
+}
+
+.carousel__next,
+.carousel__prev {
+  display: none;
+  position: absolute;
+  top: 50%;
+  color: #FFF;
+  background: rgba(255, 255, 255, 0.15);
+  z-index: 1;
+  font-size: 1rem;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.carousel__prev {
+  left: 0;
+}
+
+.carousel__prev:after {
+  content: ' << ';
+  display: inline-block;
+}
+
+.carousel__next {
+  right: 0;
+}
+
+.carousel__next:after {
+  content: ' >> ';
+  display: inline-block;
+}
+.carousel-inner {
+    margin: auto;
+    width:100%;
+    }
+
+#carousel1:checked ~ .carousel__stage .carousel__item:nth-child(1),
+#carousel2:checked ~ .carousel__stage .carousel__item:nth-child(2), 
+#carousel3:checked ~ .carousel__stage .carousel__item:nth-child(3), 
+#carousel4:checked ~ .carousel__stage .carousel__item:nth-child(4) {
+  opacity: 1;
+}
+
+#carousel1:checked ~ .carousel__stage {
+  text-indent: 0;
+}
+
+#carousel2:checked ~ .carousel__stage {
+  text-indent: -100%;
+}
+
+#carousel3:checked ~ .carousel__stage {
+  text-indent: -200%;
+}
+
+#carousel4:checked ~ .carousel__stage {
+  text-indent: -300%;
+}
+
+#carousel1:checked ~ .carousel__stage .carousel__item:nth-child(1) .carousel__prev,
+#carousel1:checked ~ .carousel__stage .carousel__item:nth-child(1) .carousel__next,
+#carousel2:checked ~ .carousel__stage .carousel__item:nth-child(2) .carousel__prev,
+#carousel2:checked ~ .carousel__stage .carousel__item:nth-child(2) .carousel__next,
+#carousel3:checked ~ .carousel__stage .carousel__item:nth-child(3) .carousel__prev,
+#carousel3:checked ~ .carousel__stage .carousel__item:nth-child(3) .carousel__next,
+#carousel4:checked ~ .carousel__stage .carousel__item:nth-child(4) .carousel__prev,
+#carousel4:checked ~ .carousel__stage .carousel__item:nth-child(4) .carousel__next {
+  display: block;
+}
+
+/* Propriedades do Formulário de contato*/
+
+form {
+    font-family: Verdana,Tahoma,sans-serif;
+    font-size: 15px;
+    background-color: #8B4513;
+    position: center;
+    max-width: 800px;
+}
+ 
+/*h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 5px black;
+}*/
+ 
+input, textarea {
+    width: 400px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+}
+ 
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: #CD853F;/* #000066;*/
+    box-shadow: 5px 0px 9px #CD853F; /*#FFFF00;*/
+    background-color: #CD853F;/*#66FFFF;*/
+    color: black;
+    font-weight: bold;
+}
+ 
+.submit input {
+    background-color: #8B4513;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border: 3px solid;
+    color: black;
+}
+.clear input {
+    background-color: #8B4513;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border: 3px solid;
+    color: black;
+}
+ 
+textarea {
+    width: 600px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 600px;
+}
+ 
+form label {
+    margin-left: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+} 
+
+/***** Footer *****/
+
+.footer-top { padding: 60px 0; background: #CD853F; text-align: left; color: #aaa; }
+.footer-top h3 { padding-bottom: 20px; color: #fff; }
+
+.footer-about img.logo-footer { max-width: 74px; margin-top: 0; margin-bottom: 18px; }
+.footer-about p a { border: 0; }
+.footer-about p a:hover, .footer-about p a:focus { border: 0; }
+
+.footer-contact p { word-wrap: break-word; }
+.footer-contact i { padding-right: 10px; font-size: 18px; color: #666; }
+.footer-contact p a { border: 0; }
+.footer-contact p a:hover, .footer-contact p a:focus { border: 0; }
+
+.footer-links a { color: #aaa; border: 0; }
+.footer-links a:hover, .footer-links a:focus { color: #fff; }
+
+.footer-bottom { padding: 15px 0 17px 0; background: #444; text-align: left; color: #aaa; }
+
+.footer-social { padding-top: 3px; text-align: right; }
+.footer-social a { margin-left: 20px; color: #777; border: 0; }
+.footer-social a:hover, .footer-social a:focus { color: #79a05f; border: 0; }
+.footer-social i { font-size: 24px; vertical-align: middle; }
+
+.footer-copyright { padding-top: 5px; }
+.footer-copyright a { color: #fff; border: 0; }
+.footer-copyright a:hover, .footer-copyright a:focus { color: #aaa; border: 0; }
